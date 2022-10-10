@@ -1,0 +1,19 @@
+<html>
+<head>
+<title> Document </title>
+<script src="./lib/sessionStorage.js"></script>
+<!-- or nego functions CDN -->
+<script src="https://functions.nego-dev.com/funcs/sessionStorage.js"></script>
+</head>
+<body>
+Hi User ! Information Saved SessionStorage !
+
+<script>
+let data = "utils.nego-dev.com"
+setSession(data)
+console.log(getSession(data))
+removeSession(data)
+</script>
+
+</body>
+</html>
